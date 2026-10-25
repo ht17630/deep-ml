@@ -10,4 +10,4 @@ def vector_sum(a: list[int|float], b: list[int|float]) -> list[int|float]:
 		added_vectors = np.add(a_1,b_1)
 
 
-	return added_vectors
+	return added_vectors.tolist()
